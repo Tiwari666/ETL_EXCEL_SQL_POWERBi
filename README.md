@@ -24,7 +24,7 @@ x) Select a destination and verify the server and database name-write down the s
 xi) Select tables that you want to import.
 
 Note: if you get the following error, please folllow the following video to fix it:
-"The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine" Error in importing process of xlsx to a sql server."
+"The 'Microsoft.ACE.OLEDB.16.0' provider is not registered on the local machine" Error in importing process of xlsx to a sql server."
 Link: https://www.youtube.com/watch?v=gjykOuT_xwQ
 
 xii) Click on "Run immediately" to import  all the data  into the environment.
