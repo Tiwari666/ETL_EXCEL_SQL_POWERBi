@@ -371,7 +371,13 @@ Parking Percentage = SUM(Query1[required_car_parking_spaces]) / (SUM(Query1[stay
 --select the table
 --now drag and drop the "hotel" into the rows.
 
---
+# How to make a daywise slicer
+
+-- drag and drop the "slicer"
+
+-- drag and drop the "reservation_status_date" into the slicer
+
+
 
 
 
