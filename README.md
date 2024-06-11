@@ -226,6 +226,110 @@ FROM
     Counts;
 ----------------.....................................................................
 
+# POWERBi start:
+Insert
+
+Shape
+
+take a line and divide the canvas into 3 parts
+
+click on "card"
+
+search "revenue" in teh search bar
+
+Drag and drop the "revenue" into the card and format it.
+
+Similarly, get another card, drag and drop the "adr", format it and change it to the average value,clicking on the "field" drop-down arrow..
+------
+
+create a new measure called "Total Nights" just clicking on the "stays_in_week_nights" column, format it as usual.
+
+Total Nights = sum(Query1[stays_in_week_nights]) + sum(Query1[stays_in_weekend_nights])
+
+# How to format the "callable value" for "Average of Discount""
+
+click on the name of the column
+
+A new menu called "column tools" appear then choose % or o.oo as required.
+
+
+# How to get the revenue over years?
+
+--get a table
+
+-Drag and drop the Revenue and Reservation Status Date
+
+-click on the Reservation Status Date
+
+--select the "Reservation Status Date" to change the date format
+
+--now, choose the line graph to see the trends over time.
+
+# How to filter out the unimportant data/column/date here?
+
+-drag and drop the "Reservation Status Date" into the "filter on this page" under the "filter" pane.
+
+--select the "advance filtering" from the drop down
+
+--"show item when the value" 
+
+--choose the required option from the drop-down menu
+
+--"Apply filter"
+
+# how to filter the result based on thr some feature, like country here? Connection of different results in cards using the slicer.
+
+--choose the "slicer" from the visualizations
+
+-drag and drop the "country" column into the "slicer".
+
+--choose one of the options from the slicer, it will change results in different cards accordingly.
+
+# Similarly, create the slicer for the "hotel" column as well.
+
+Please do not forget to drag and drop the "hotel" column into the line chart graph to make it workable.
+
+# If visualization menu is missing?
+
+-file
+
+- option and setting
+
+- options
+
+- preview features
+
+- 
+- ok
+- clck on the "new visuals" in the middle of the page to see all the visualizaation tools.
+- 
+
+- 
+------------------
+# To see the trends of each KPIs' parameters,
+
+--copy and paste the line graph underneath each respective KPIs'
+
+--Make sure to off all the legend, title and unnecesay items.
+
+--Take of the Y-axis values and replace the y axis column with adr, total noght and discount variaables.
+
+-------
+
+# Should we increase the parking lot?
+
+-copy and paste one of the cards and make a new card for the "required_car_parking_spaces"
+
+-drag and drop the "required_car_parking_spaces" into the new card.
+
+-
+
+
+
+
+
+
+
 
 
 
