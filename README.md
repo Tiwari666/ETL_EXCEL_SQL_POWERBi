@@ -324,6 +324,55 @@ Please do not forget to drag and drop the "hotel" column into the line chart gra
 
 -
 
+# How to rename the "category label"?
+-Click on the name of the category label
+
+--A "fields" will pop up underneath the "Build" visualization tool
+
+--Right click on the name of the "Fields" and select "Rename for this Visual"
+
+
+# How to draw a trend line?
+--click each trend line and "on" the trend line.
+
+# Seeing Revenue by Hotel type?
+make a donut chart
+
+# make a table to see a detail for revenue by year
+
+--get a "table" from the "build"
+
+--search "date hiererchay"
+
+--drag and drop the "year" into the table
+
+--Again, drag and drop the "revenue" 
+
+--to change the name of the column in a table, click on the column name( "sum of revenue"), under "columns", click on the name "sum of revenue" and rename it.
+
+--Again, drag and drop the "required car space" into the table
+
+--
+
+# PARKING % UTILIZATION
+
+--in the searh bar, search the "required car space"
+
+--right click on the "required car space"
+
+--select "new measure"
+
+-- write :
+Parking Percentage = SUM(Query1[required_car_parking_spaces]) / (SUM(Query1[stays_in_week_nights]) + SUM(Query1[stays_in_weekend_nights]))
+
+--drag and drop the Parking Percentage into the table
+
+# Convert the table into the matrix to get the name of each hotel under each year
+--select the table
+--now drag and drop the "hotel" into the rows.
+
+--
+
 
 
 
